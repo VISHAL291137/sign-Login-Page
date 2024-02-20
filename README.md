@@ -1,1 +1,31 @@
-# sign-Login-Page
+# sign-Login-Page<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>LOGIN</title>
+</head>
+<body>
+
+
+    <div class="container fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="active"> Sign In </h2>
+          <h2 class="inactive underlineHover">Sign Up</h2>
+          <!-- Login Form -->
+          <form>
+            <input type="text" class="fadeIn second" placeholder="Username">
+            <input type="password" class="fadeIn third" placeholder="Password">
+            <input type="submit" class="fadeIn fourth" value="Log In">
+          </form>
+          <!-- Forgot Password -->
+          <div id="formFooter">
+            <a class="underlineHover" href="#">Forgot Password?</a>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
